@@ -5,6 +5,13 @@ Investigate the efficiency and algorithmic complexity of counting sort and compa
 sorting algorithm (insertion sort). Determine the advantages and disadvantages of the algorithm by comparing it with
 other exchange algorithms.
 
+## Table of Contents
+
+1. [Counting sort](#counting-sort)
+2. [Insertion sort](#insertion-sort)
+3. [Comparison](#comparison)
+4. [Conclusions](#conclusions)
+
 ## Counting sort
 
 ### Overview
@@ -97,8 +104,9 @@ Insertion-Sort (A, n)
 
 $$
 T(n) = c_1 n + c_2 (n-1) + c_3 (n-1) + c_4 \sum_{i=2}^{n} t_i + c_5 \sum_{i=2}^{n} (t_i-1) + c_6 \sum_{i=2}^{n} (t_i-1)
-+c_7 (n-1)
++c_7(n-1)
 $$
+
 , where $c_1...c_7 number of steps
 
 To calculate the worst case time complexity, when the input array is sorted in reverse order, we use the
