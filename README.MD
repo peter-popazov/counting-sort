@@ -107,7 +107,7 @@ T(n) = c_1 n + c_2 (n-1) + c_3 (n-1) + c_4 \sum_{i=2}^{n} t_i + c_5 \sum_{i=2}^{
 +c_7(n-1)
 $$
 
-, where $c_1...c_7 number of steps
+, ...where \(c_1, \ldots, c_7\) represent the number of steps.
 
 To calculate the worst case time complexity, when the input array is sorted in reverse order, we use the
 decomposition of sums and after several algebraic operations we have.
@@ -117,10 +117,7 @@ T(n) = \left(\frac{c_4}{2} + \frac{c_5}{2} + \frac{c_6}{2}\right) n^2 + \left(c_
 \frac{c_5}{2} - \frac{c_6}{2} + c_7 \right) n - (c_2 + c_3 + c_4 + c_7)
 $$
 
-The running time is thus a quadratic function of n.
-$$
-**T(n) = O(n^2)**
-$$
+The running time is thus a quadratic function of n. \( T(n) = O(n^2) \).
 
 ### Space complexity
 
@@ -198,8 +195,8 @@ Fig. C.6 - Counting sort best case
   is [reversed](https://drive.google.com/file/d/1Pc5mZLxNQERdRimdHgJYUjJCj-IuFi-l/view) according to what it is being
   sorted (Fig. C.7), it took almost 8 seconds for insertion sort and 0.006456 in the case of counting sort.
 
- <img src="imgs/insertion_sort_worst_case.png" height="220">
-
+<img src="imgs/insertion_sort_worst_case.png" height="220">
+  
 Fig. C.7 - Insertion sort worst case
 
 * the best case is when the input array is already sorted (Fig. C.8). The execution time of the insertion sort
